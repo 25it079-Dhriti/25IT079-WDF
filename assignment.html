@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignments | Student Management Portal</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Student Management Portal</h1>
+        <p>Assignments</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="attendance.html">Attendance</a></li>
+            <li><a href="assignment.html">Assignments</a></li>
+            <li><a href="study-material.html">Study Material</a></li>
+            <li><a href="timetable.html">Timetable</a></li>
+            <li><a href="notice.html">Notice Board</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="assignment-section">
+            <h2>Assignment Details</h2>
+
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Assignment</th>
+                    <th>Due Date</th>
+                    <th>Status</th>
+                </tr>
+
+                <tr>
+                    <td>Web Development Framework</td>
+                    <td>Semantic HTML Website</td>
+                    <td>27 July 2026</td>
+                    <td>Pending</td>
+                </tr>
+
+                <tr>
+                    <td>Database Management</td>
+                    <td>SQL Queries</td>
+                    <td>28 July 2026</td>
+                    <td>Submitted</td>
+                </tr>
+
+                <tr>
+                    <td>Data Structures</td>
+                    <td>Sorting Program</td>
+                    <td>30 July 2026</td>
+                    <td>Pending</td>
+                </tr>
+
+                <tr>
+                    <td>Objec Oriented Prgramming</td>
+                    <td>Process Scheduling</td>
+                    <td>01 August 2026</td>
+                    <td>Submitted</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="submit-box">
+            <h2>Submit Assignment</h2>
+
+            <form>
+                <label for="subject">Subject</label>
+                <select id="subject" required>
+                    <option value="">Select Subject</option>
+                    <option>Web Development Framework</option>
+                    <option>Database Management</option>
+                    <option>Data Structures</option>
+                    <option>Operating System</option>
+                </select>
+
+                <label for="file">Upload Assignment</label>
+                <input type="file" id="file" required />
+
+                <label for="remarks">Remarks</label>
+                <textarea id="remarks" rows="4" placeholder="Enter remarks..."></textarea>
+
+                <button type="submit">Submit Assignment</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Management Portal | CHARUSAT</p>
+    </footer>
+</body>
+
+</html>
