@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h2> Student Registration Form</h2>
+    <form action="#" method="post" name="myForm" id="myForm">
+
+        <label for="first name">First Name :  </label>
+        <input id="fn" type ="text" name ="first name" placeholder="First Name" required><br>
+        <br><label for="first name">Last Name : </label>
+        <input id="ln" type ="text" name ="last name" placeholder="Last Name" required><br>
+
+        <br><label for="Email">Email : </label>
+        <input id="em" type ="email" name ="Email" placeholder="Enter Your Email" required><br>
+
+        <br><label for="Number">Mobile Number :</label>
+        <input id="num" type ="tel" name ="Mobile number" placeholder="Enter Your Number" required><br>
+
+        <br><label for="Password">Password :</label>
+        <input id="pass" type="password" name="password" placeholder="Enter Your Password" required><br>
+
+        <br><label for="Comform Password"> Comform Password :</label>
+        <input id="cpass" type="password" name="Cpassword" placeholder="Conform Your Password" required><br>
+
+        <br><label>Course</label><br>
+        <select id="course" name="course">
+            <option>Select Course</option>
+            <option>B.Tech</option>
+            <option>BCA</option>
+            <option>B.Sc</option>
+            <option>B.Com</option>
+        </select>
+        <br>
+
+        <br><lable> Year </lable><br>
+        <select id="year" name="year">
+            <option>Select Year</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+        </select>
+        <br>
+
+        <label>Gender</label><br>
+        <input type="radio" name="gender" required>
+        <lable for="female" > Female</lable>
+        <input type="radio" name="gender" required>
+        <lable for="male" > Male</lable>
+        <input type="radio" name="gender" required>
+        <lable for="Other" >Other</lable><br><br>
+
+        <input type="checkbox" required>
+        <label>I accept the Terms and Conditions</label><br><br>
+
+        <button type="button" id="submit" onclick="vaildateForm()"> Submit</button>
+        <button type="reset"> Reset</button>
+
+     </form>
+     <script src="form.js"></script>
+</body>
+</html>
