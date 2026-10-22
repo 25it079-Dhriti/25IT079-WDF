@@ -1,0 +1,149 @@
+body {
+
+    font-family: Arial;
+
+    background: #fff0f5;
+
+    margin: 0;
+
+    padding: 30px;
+
+}
+
+
+.container {
+
+    max-width: 800px;
+
+    margin: auto;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px #ccc;
+
+}
+
+
+h1 {
+
+    text-align: center;
+
+    color: #e75480;
+
+}
+
+
+input,
+select {
+
+    padding: 12px;
+
+    margin: 5px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+}
+
+
+input {
+
+    width: 40%;
+
+}
+
+
+#studentList {
+
+    margin-top: 20px;
+
+}
+
+
+.student {
+
+    background: #fff5f8;
+
+    padding: 15px;
+
+    margin: 10px 0;
+
+    border-radius: 10px;
+
+    border-left: 5px solid #e75480;
+
+}
+
+
+.student h3 {
+
+    margin: 0;
+
+    color: #e75480;
+
+}
+
+
+button {
+
+    padding: 10px 15px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #e75480;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    background: #d63f6d;
+
+}
+
+
+.pagination {
+
+    text-align: center;
+
+    margin-top: 20px;
+
+}
+
+
+#pageNumber {
+
+    margin: 0 15px;
+
+    font-weight: bold;
+
+}
+
+
+#loading {
+
+    text-align: center;
+
+    color: #e75480;
+
+}
+
+
+#error {
+
+    text-align: center;
+
+    color: red;
+
+}

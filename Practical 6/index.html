@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Student Data</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Information</h1>
+
+        <!-- Search -->
+        <input
+            type="text"
+            id="search"
+            placeholder="Search student..."
+        >
+
+        <!-- Filter -->
+        <select id="courseFilter">
+
+            <option value="All">All Courses</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+
+        </select>
+
+        <!-- Sort -->
+        <select id="sort">
+
+            <option value="none">Sort By</option>
+            <option value="name">Name</option>
+            <option value="year">Year</option>
+
+        </select>
+
+
+        <!-- Loading Message -->
+        <p id="loading">Loading students...</p>
+
+        <!-- Error Message -->
+        <p id="error"></p>
+
+
+        <!-- Student Data -->
+        <div id="studentList"></div>
+
+
+        <!-- Pagination -->
+        <div class="pagination">
+
+            <button onclick="previousPage()">
+                Previous
+            </button>
+
+            <span id="pageNumber">Page 1</span>
+
+            <button onclick="nextPage()">
+                Next
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

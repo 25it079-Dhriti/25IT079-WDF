@@ -1,1 +1,62 @@
-
+[
+    {
+        "name": "Khushi",
+        "course": "B.Tech",
+        "year": 2,
+        "city": "Anand"
+    },
+    {
+        "name": "Dhriti",
+        "course": "BCA",
+        "year": 1,
+        "city": "Ahmedabad"
+    },
+    {
+        "name": "Riya",
+        "course": "B.Tech",
+        "year": 3,
+        "city": "Vadodara"
+    },
+    {
+        "name": "Aarav",
+        "course": "MCA",
+        "year": 2,
+        "city": "Surat"
+    },
+    {
+        "name": "Priya",
+        "course": "B.Tech",
+        "year": 1,
+        "city": "Anand"
+    },
+    {
+        "name": "Yash",
+        "course": "BCA",
+        "year": 3,
+        "city": "Rajkot"
+    },
+    {
+        "name": "Neha",
+        "course": "B.Tech",
+        "year": 2,
+        "city": "Ahmedabad"
+    },
+    {
+        "name": "Rahul",
+        "course": "MCA",
+        "year": 1,
+        "city": "Vadodara"
+    },
+    {
+        "name": "Anjali",
+        "course": "BCA",
+        "year": 2,
+        "city": "Surat"
+    },
+    {
+        "name": "Dev",
+        "course": "B.Tech",
+        "year": 4,
+        "city": "Anand"
+    }
+]
