@@ -1,0 +1,3 @@
+id,name,username,email,password,role,remember_token
+1,Krisha,25it067,25it067@charusat.edu.in,$2y$10$fP8rKsgxROxazXznIKHDG.jSHYBtTwhg8jaSJoLDwczKRFCj0ADza,admin,
+2,Dhriti,25it079,25it079@charusat.edu.in,$2y$10$PQvTlZ4yU/leoVQexz7PMO6LJax1BLsAe4tu7rmeiyMZMAV1vR1ta,student,
